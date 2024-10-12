@@ -4,6 +4,8 @@ import { useProductStore } from "../store/product";
 import { useEffect } from "react";
 import ProductCard from "../components/productCard";
 
+
+
 const HomePage = () => {
 const {fetchProducts, products} = useProductStore()
 
